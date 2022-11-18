@@ -2,7 +2,7 @@ export default [
 	{
 		path: '/cars',
 		name: 'cars',
-		component: () => import('@/views/cars/Index.vue'),
+		component: () => import('@/views/cars/LayoutBlank.vue'),
 		meta: {
 			pageTitle: 'Datos del Cliente',
 			breadcrumb: [
